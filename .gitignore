@@ -1,0 +1,24 @@
+# (paste the content from above)
+GITIGNORE# PHP / Composer
+/vendor/
+/composer.lock
+/.env
+.env.local
+
+# OS / editors / IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# MAMP / local runtime files
+/tmp/
+logs/
+*.log
+cgi-bin/
+
+# node / build artifacts (if present)
+node_modules/
+dist/
+
+GTIIGNORE
