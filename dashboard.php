@@ -27,11 +27,17 @@ $first_name = $_SESSION['first_name'];
 
         <?php
         if ($_SESSION['role'] == 'owner') {
-            echo "You are a Pet Owner. <p><a href='create_ad.php'>Create an Ad</a></p>";
+            echo "<h2>Owner Dashboard</h2>";
+            echo "<ul>";
+            echo "<li><a href='add_pet.php'>Add a New Pet</a></li>";
+            echo "<li><a href='create_ad.php'>Create a New Ad</a></li>";
+            echo "</ul>";
         } else {
-            echo "You are a Pet Carer. <p><a href='find_pet.php'>Find a Pet</a></p>";
+            echo "<h2>Carer Dashboard</h2>";
+            echo "<p><a href='find_pet.php'>Find a Pet</a></p>";
         }
         ?>
+        
         <p><a href="logout.php">Log Out</a></p>
 
     </body>
