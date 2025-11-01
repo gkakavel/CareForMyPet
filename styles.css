@@ -1,0 +1,19 @@
+/* We can use a class to target our pet info box */
+.pet-info-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: auto; /* This replaces "clear: both" */
+}
+
+/* This targets the image inside our box */
+.pet-info-box img {
+    max-width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+/* This targets the paragraphs inside our box */
+.pet-info-box p {
+    margin: 5px 0; /* A little bit of vertical spacing */
+}
